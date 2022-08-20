@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+.navbar-container{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 25px 60px;
+  padding: 5px;
+  font-weight: 400;
+  color: #758283;
+  
+}
+
+.grow-list{
+  position: relative;
+  margin-left: 150px;
+}
+
+.list-item:hover{
+color: #000;
+cursor: pointer;
+}
+
+
+li{
+float: left;
+list-style: none;
+padding: 20px;
+}
+
+.button-group{
+  float: right;
+  margin-right: 20px;
+}
+
+.heading-text{
+  position: absolute;
+  top: 180px;
+  left: 60px;
+  font-family: "Poppins";
+  font-weight:600 ;
+  font-size: 60px;
+  width: 30%;
+  color: #3C2F60;
+  line-height: 1.1;
+
+}
+
+.heading-text span{
+  color:#5955B3;
+}
+
+.list{
+  margin-right: 350px;
+}
+
+.banner-container img{
+  position: absolute;
+  width: 50%;
+  top: 15%;
+  left: 50%;
+}
+
+.navbar-container img{
+  position: absolute;
+  width: 10%;
+  margin-top: 10px;
+  
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.banner-container
+{
+  margin: 0 60px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.description
+{
+  position: relative;
+  margin-top: 250px;
+  width: 40%;
+  color: #758283;
+
+}
+
+.nav-button{
+margin-top: 10px;
+margin-left: 10px;
+margin-bottom: 25px;
+padding: 15px 25px;
+border-color: #646FD4;
+box-shadow: 0px 5px 5px -1px #646FD4;
+border-radius: 10px;
+background-color: #646FD4;
+color: #FFF;
+text-align: center;
+
+}
+
